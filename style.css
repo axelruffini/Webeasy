@@ -10,18 +10,24 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(0deg, #8578EA 0.32%, #5C3BC4 45.33%, #4214AD 99.66%);
-    box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.25);
+    background-color: #7f72df;
+    padding: 20px;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 90vh;
+    background-color: #8578EA;
 }
 
 nav {
-    margin-top: 300px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    gap: 137.507px;
-
+    gap: 137px;
 }
 
 h1 {
@@ -60,13 +66,9 @@ h3 {
     line-height: normal;
 }
 
-.wave {
-    position: relative;
-}
-
 .txtServ {
     font-family: Limelight;
-    font-size: 40px ;
+    font-size: 40px;
     background: linear-gradient(92deg, #8578EA 0%, #7316BF 98.95%);
     background-clip: text;
     -webkit-background-clip: text;
