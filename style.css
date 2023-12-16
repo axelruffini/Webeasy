@@ -3,9 +3,17 @@
     padding: 0;
     font-family: 'Jost', sans-serif;
 }
+html{
+    background-color:black;
+}
+
+main{
+    background-color: white;
+}
 
 
 header {
+    background-image: url('/assets/Fondo.svg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,14 +28,33 @@ header {
     align-items: center;
     flex-direction: column;
     height: 90vh;
-    background-color: #8578EA;
 }
 
 nav {
-    display: inline-flex;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.navTextos{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 137px;
+    gap: 60px;
+}
+
+.contactar{
+    background-color: rgba(255, 255, 255, 0.206);
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+
+.logo{
+    width: 60px;
+    height: 30px;
 }
 
 h1 {
@@ -60,7 +87,7 @@ h3 {
     color: #FFF;
     text-align: center;
     font-family: Jost;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
