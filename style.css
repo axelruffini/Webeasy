@@ -3,11 +3,12 @@
     padding: 0;
     font-family: 'Jost', sans-serif;
 }
-html{
-    background-color:black;
+
+html {
+    background-color: black;
 }
 
-main{
+main {
     background-color: white;
 }
 
@@ -31,14 +32,14 @@ header {
 }
 
 nav {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 95%;
 }
 
-.navTextos{
+.navTextos {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -46,7 +47,7 @@ nav {
     gap: 60px;
 }
 
-.contactar{
+.contactar {
     display: flex;
     flex-direction: row;
     background-color: rgba(255, 255, 255, 0.206);
@@ -55,7 +56,7 @@ nav {
     gap: 10px;
 }
 
-.logo{
+.logo {
     width: 60px;
     height: 30px;
 }
@@ -104,4 +105,45 @@ h3 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     backdrop-filter: blur(89.19999694824219px);
+}
+
+.tarjServi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+}
+
+article {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: black;
+    font-weight: 600;
+    text-align: start;
+}
+
+.imgTarj{
+    width: 100px;
+    padding: 30px 10px 30px 50px ;
 }
