@@ -15,7 +15,6 @@ main {
 
 header {
     background-image: url(./assets/Fondo.svg);
-
     display: flex;
     justify-content: center;
     align-items: center;
