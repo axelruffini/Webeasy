@@ -12,6 +12,14 @@ main {
     background-color: white;
 }
 
+.artColor{
+    background-color:#ddd8ff;
+}
+
+article{
+    padding-bottom: 50px;
+}
+
 
 header {
     background-image: url(./assets/Fondo.svg);
@@ -100,11 +108,8 @@ h3 {
 .txtServ {
     font-family: Limelight;
     font-size: 40px;
-    background: linear-gradient(92deg, #8578EA 0%, #7316BF 98.95%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    backdrop-filter: blur(89.19999694824219px);
+    color: black;
+    margin-bottom: 15px;
 }
 
 .tarjServi {
