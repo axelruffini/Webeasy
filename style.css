@@ -160,6 +160,10 @@ article {
     padding: 30px 10px 30px 50px;
 }
 
+.pTarj{
+    width: 170px;
+}
+
 ::selection{
     background-color: #e1d3ff;
     color: black;
