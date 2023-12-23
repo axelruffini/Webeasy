@@ -137,6 +137,12 @@ article {
     align-items: center;
 }
 
+.qS{
+    margin-top: 10px;
+    max-width: 1000px;
+    font-size: 20px;
+}
+
 .titulo{
     color: black;
     font-weight: 600;
