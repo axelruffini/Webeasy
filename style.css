@@ -153,3 +153,8 @@ article {
     width: 100px;
     padding: 30px 10px 30px 50px ;
 }
+
+::selection{
+    background-color: #e1d3ff;
+    color: black;
+}
