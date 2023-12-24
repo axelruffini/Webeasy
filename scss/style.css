@@ -87,6 +87,10 @@ nav {
   height: 30px;
 }
 
+.telIcon {
+  width: 15px;
+}
+
 h1 {
   font-family: "Limelight", sans-serif;
   text-align: center;
@@ -205,5 +209,13 @@ h3 {
   }
   .logo {
     display: none;
+  }
+  .telIcon {
+    display: none;
+  }
+  .contactar {
+    display: flex;
+    justify-content: center;
+    width: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
