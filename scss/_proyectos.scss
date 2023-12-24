@@ -1,0 +1,16 @@
+.pTarj{
+    width: 170px;
+}
+
+.imgProy{
+    width: 300px;
+}   
+
+.proyGrupo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+    gap: 20px;
+}

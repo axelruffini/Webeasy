@@ -1,0 +1,65 @@
+
+header {
+    background-image: url(../assets/Fondo.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.navTextos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.contactar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.206);
+    border-radius: 100px;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.logo {
+    width: 60px;
+    height: 30px;
+}
+
+h1 {
+    font-family: 'Limelight', sans-serif;
+    text-align: center;
+    font-family: Limelight;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 20px;
+    background: linear-gradient(91deg, #C5AEF2 1.91%, #A4E9F9 99.81%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(89.19999694824219px);
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+html {
+    background-color: black;
+}
+
+main {
+    background-color: white;
+}
+
+.artColor{
+    background-color:#ddd8ff;
+}
+
+article{
+    padding-bottom: 50px;
+}
+
+
+article {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+::selection{
+    background-color: #5926c6;
+    color: rgb(255, 255, 255);
+}
+
+@import "inicio";
+@import "servicios";
+@import "proyectos";
+@import "textos";

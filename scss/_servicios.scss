@@ -1,0 +1,33 @@
+.imgTarj{
+    width: 100px;
+    padding: 30px 10px 30px 50px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}
+
+.tarjServi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+.txtServ {
+    font-family: Limelight;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 15px;
+}
