@@ -186,4 +186,23 @@ h3 {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .qS {
+    font-size: 20px;
+    max-width: 250px;
+  }
+  .txtServ {
+    font-size: 35px;
+  }
+  .logo {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
