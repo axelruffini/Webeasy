@@ -38,6 +38,10 @@ article {
   color: rgb(255, 255, 255);
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background-image: url(../assets/Fondo.svg);
   display: flex;
@@ -228,5 +232,28 @@ h3 {
   .imgTarj {
     width: 100px;
     padding: 30px 10px 30px 15px;
+  }
+}
+.slider {
+  background-image: url(/assets/Proy1.png);
+  margin: 40px;
+  width: 450px;
+  height: 280px;
+  border-radius: 5px;
+  animation: slide 10s linear 1ms infinite;
+}
+
+@keyframes slide {
+  25% {
+    background-image: url(/assets/Proy1.png);
+  }
+  50% {
+    background-image: url(/assets/Proy2.png);
+  }
+  75% {
+    background-image: url(/assets/Proy3.png);
+  }
+  100% {
+    background-image: url(/assets/Proy2.png);
   }
 }/*# sourceMappingURL=style.css.map */

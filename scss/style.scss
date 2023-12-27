@@ -29,12 +29,13 @@ article {
     align-items: center;
 }
 
-
-
-
 ::selection{
     background-color: #5926c6;
     color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
 }
 
 @import "inicio";
@@ -42,3 +43,4 @@ article {
 @import "proyectos";
 @import "textos";
 @import "responsive";
+@import "slider"
