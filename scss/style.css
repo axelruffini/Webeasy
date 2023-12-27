@@ -8,10 +8,6 @@ html {
   background-color: black;
 }
 
-main {
-  background-color: white;
-}
-
 .artColor {
   background-color: #ddd8ff;
 }
@@ -145,7 +141,7 @@ h1 {
 }
 
 .txtServ {
-  font-family: Limelight;
+  font-weight: bolder;
   font-size: 40px;
   color: black;
   margin-bottom: 15px;
@@ -153,6 +149,10 @@ h1 {
 
 .pTarj {
   width: 170px;
+}
+
+#proyectos {
+  background-color: white;
 }
 
 .imgProy {
@@ -256,4 +256,72 @@ h3 {
   100% {
     background-image: url(/assets/Proy2.png);
   }
+}
+.background {
+  background: linear-gradient(247deg, #2D275B 0%, #191919 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: #C5AEF2;
+  color: black;
+}
+
+.btn2 {
+  font-size: 20px;
+  background-color: #aef2c7;
+  color: black;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 20px;
+  border-radius: 100px;
+}
+
+.btn3 {
+  font-size: 20px;
+  background-color: #FFD4D5;
+  color: black;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 20px;
+  border-radius: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+
+input {
+  font-size: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.251);
+  border-radius: 30px;
+  border-style: none;
+  margin: 5px;
+  padding: 0px 30px;
+  color: white;
+}
+
+textarea {
+  font-size: 20px;
+  width: 510px;
+  height: 10%;
+  margin: 20px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.251);
+  color: white;
+  padding: 30px;
 }/*# sourceMappingURL=style.css.map */

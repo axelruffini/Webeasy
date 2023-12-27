@@ -8,10 +8,6 @@ html {
     background-color: black;
 }
 
-main {
-    background-color: white;
-}
-
 .artColor{
     background-color:#ddd8ff;
 }
@@ -43,4 +39,5 @@ a{
 @import "proyectos";
 @import "textos";
 @import "responsive";
-@import "slider"
+@import "slider";
+@import "contacto";
