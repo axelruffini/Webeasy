@@ -273,6 +273,8 @@ h3 {
 }
 
 .btn2 {
+  display: flex;
+  flex-direction: row;
   font-size: 20px;
   background-color: #aef2c7;
   color: black;
@@ -280,9 +282,13 @@ h3 {
   width: fit-content;
   padding: 15px 20px;
   border-radius: 100px;
+  gap: 10px;
 }
 
 .btn3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
   font-size: 20px;
   background-color: #FFD4D5;
   color: black;
@@ -290,6 +296,7 @@ h3 {
   width: fit-content;
   padding: 15px 20px;
   border-radius: 100px;
+  margin-left: 30px;
 }
 
 form {
@@ -309,19 +316,36 @@ input {
   background-color: rgba(255, 255, 255, 0.251);
   border-radius: 30px;
   border-style: none;
-  margin: 5px;
+  margin: 0px 0px 20px 0px;
   padding: 0px 30px;
   color: white;
 }
 
 textarea {
   font-size: 20px;
-  width: 510px;
+  width: 90%;
   height: 10%;
-  margin: 20px;
   border-radius: 20px;
   border-style: none;
   background-color: rgba(255, 255, 255, 0.251);
   color: white;
   padding: 30px;
+  margin-bottom: 20px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+
+.btnTxt {
+  color: black;
+}
+
+.aling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
