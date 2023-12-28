@@ -333,6 +333,13 @@ textarea {
   margin-bottom: 20px;
 }
 
+.txtContact {
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 15px;
+}
+
 .flexRow {
   display: flex;
   flex-direction: row;
