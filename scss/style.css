@@ -124,6 +124,7 @@ h1 {
   flex-wrap: wrap;
   width: 70%;
   justify-content: center;
+  max-width: 1200px;
 }
 
 .tarjServi {
@@ -348,6 +349,7 @@ textarea {
 
 .btnTxt {
   color: black;
+  font-weight: 400;
 }
 
 .aling {
